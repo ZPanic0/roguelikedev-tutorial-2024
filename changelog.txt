@@ -1,0 +1,8 @@
+#v0
+We countin bois don't @ me
+
+- Added github workflow
+- Finished tutorial thru https://selinadev.github.io/05-rogueliketutorial-01/
+- Added spritesheet from KenneyNL's 1-bit pack https://kenney.nl/assets/1-bit-pack
+- Got a bouncin babeh boi on screen and moving with arrow keys. Escape closes.
+- Background is blackground now

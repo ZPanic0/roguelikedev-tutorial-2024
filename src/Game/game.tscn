@@ -1,0 +1,19 @@
+[gd_scene load_steps=5 format=3 uid="uid://dru6k3pcqrgxn"]
+
+[ext_resource type="Texture2D" uid="uid://dfsuw6kd6lv1a" path="res://assets/images/kenney_1-bit-pack/monochrome_packed.png" id="1_0qvj6"]
+[ext_resource type="Script" path="res://src/Game/Game.cs" id="1_fh5rg"]
+[ext_resource type="Script" path="res://src/Game/EventHandler.cs" id="2_327ak"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ncnye"]
+atlas = ExtResource("1_0qvj6")
+region = Rect2(384, 0, 16, 16)
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_fh5rg")
+
+[node name="Player" type="Sprite2D" parent="."]
+texture = SubResource("AtlasTexture_ncnye")
+centered = false
+
+[node name="EventHandler" type="Node" parent="."]
+script = ExtResource("2_327ak")

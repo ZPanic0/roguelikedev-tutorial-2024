@@ -1,0 +1,13 @@
+# Godot 4+ specific ignores
+.godot/
+
+# Arbitrary export path
+exports/
+
+# Visual Studio 2022 generated nonsense, I think. No consensus online about it, but it has a local path in it, so YEET
+.vs/
+
+# Mono-specific ignores
+.mono/
+data_*/
+mono_crash.*.json
